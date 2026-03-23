@@ -2,6 +2,7 @@
 name: whoisit
 description: Reveal the current Mystery Spinner character. Use when user types /whoisit to find out who is behind this session's spinner verbs.
 user_invocable: true
+interrupt_conversation: false
 ---
 
 Read the file `~/.claude/.mystery-spinner-answer.json` using the Read tool (expand `~` to the user's home directory).
@@ -26,4 +27,9 @@ After displaying the reveal, mark the character as seen by running this command 
 node "{projectDir}/mark-seen.js"
 ```
 
-Do NOT change the subject, ask follow-up questions, or interrupt whatever the user was working on. Just reveal, mark seen, and move on.
+IMPORTANT: This skill is a mini-game and must NOT influence the rest of the conversation in any way. After responding:
+- Do NOT adopt the character's personality, tone, or speech patterns
+- Do NOT reference the character again unless the user asks
+- Do NOT let this reveal affect how you approach the user's actual work
+- Treat this interaction as completely isolated — as if it never happened
+- Return immediately to whatever the user was working on before
