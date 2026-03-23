@@ -1,0 +1,14 @@
+{
+  "name": "claude-mystery-spinner",
+  "version": "1.0.0",
+  "description": "Each Claude Code session gets spinner verbs hinting at a mystery character. Can you guess who's thinking?",
+  "main": "pick-theme.js",
+  "scripts": {
+    "install-hook": "node install.js",
+    "uninstall-hook": "node uninstall.js",
+    "pick": "node pick-theme.js",
+    "reveal": "node reveal.js"
+  },
+  "keywords": ["claude-code", "spinner", "mystery", "game"],
+  "license": "MIT"
+}
