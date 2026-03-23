@@ -4,7 +4,7 @@
 
 Each time you start a Claude Code session, the spinner verbs get taken over by a mystery character. Watch the clues. Guess who it is. Then reveal the answer.
 
-25 built-in characters spanning film, TV, literature, video games, animals, and unhinged archetypes — from Sherlock Holmes deducing your code to a Golden Retriever fetching your results.
+25 built-in characters from film, TV, literature, video games, and comics — from Yoda mangling your syntax to Gollum hoarding your precious code.
 
 You'll never see the same character twice until you've revealed them all.
 
@@ -103,31 +103,31 @@ Custom themes are automatically included in the rotation.
 
 | Character | Category | Difficulty |
 |-----------|----------|-----------|
-| Sherlock Holmes | Literature | Easy |
-| Gordon Ramsay | Television | Easy |
-| Bob Ross | Television | Easy |
-| A Cat | Animal | Easy |
-| Shakespeare | Literature | Medium |
-| David Attenborough | Television | Medium |
-| Gandalf | Film / Literature | Easy |
-| A Noir Detective | Archetype | Medium |
-| Batman | Comics / Film | Easy |
-| Jeff Goldblum | Film | Medium |
-| A Passive-Aggressive Coworker | Archetype | Easy |
-| Mario | Video Games | Easy |
-| A Robot Becoming Sentient | Archetype | Medium |
-| Julia Child | Television | Hard |
-| Darth Vader | Film | Easy |
-| A Golden Retriever | Animal | Easy |
-| Snoop Dogg | Music | Medium |
-| An Ikea Instruction Manual | Object | Medium |
-| A Toddler | Archetype | Medium |
-| Morgan Freeman | Film | Medium |
-| A Haunted Victorian Doll | Horror | Hard |
-| Grandma Sending a Text | Archetype | Easy |
-| Christopher Walken | Film | Medium |
-| An Overly Honest GPS | Object | Medium |
+| Sherlock Holmes | Literature / Film | Easy |
 | Yoda | Film | Easy |
+| Darth Vader | Film | Easy |
+| Gandalf | Film / Literature | Easy |
+| Batman | Comics / Film | Easy |
+| Mario | Video Games | Easy |
+| Homer Simpson | Television | Easy |
+| Shrek | Film | Easy |
+| SpongeBob SquarePants | Television | Easy |
+| Scooby-Doo | Television | Easy |
+| Gollum | Film / Literature | Easy |
+| Jack Sparrow | Film | Medium |
+| The Terminator | Film | Medium |
+| James Bond | Film | Medium |
+| Forrest Gump | Film | Medium |
+| Buzz Lightyear | Film | Medium |
+| Willy Wonka | Film / Literature | Medium |
+| Tony Stark | Film / Comics | Medium |
+| The Grinch | Film / Literature | Medium |
+| Michael Scott | Television | Medium |
+| The Joker | Comics / Film | Medium |
+| Indiana Jones | Film | Medium |
+| Dory | Film | Medium |
+| Kermit the Frog | Television | Medium |
+| Rocky Balboa | Film | Hard |
 
 ## Uninstall
 
