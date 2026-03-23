@@ -4,7 +4,7 @@
 
 Each time you start a Claude Code session, the spinner verbs get taken over by a mystery character. Watch the clues. Guess who it is. Then reveal the answer.
 
-25 built-in characters from film, TV, literature, video games, and comics — from Yoda mangling your syntax to Gollum hoarding your precious code.
+A growing roster of iconic characters from film, TV, literature, video games, and comics — from Yoda mangling your syntax to Gollum hoarding your precious code.
 
 You'll never see the same character twice until you've revealed them all.
 
@@ -54,7 +54,7 @@ node ~/.claude-mystery-spinner/reveal.js
 
 - Each time you **reveal** a character (via `/whoisit` or `reveal.js`), it's marked as seen
 - Future sessions only pick from characters you **haven't** revealed yet
-- Once you've revealed all 25, the cycle resets and they all come back
+- Once you've revealed every character, the cycle resets and they all come back
 - If you never reveal a character, it stays in the pool — no penalty for skipping
 
 ## Example
@@ -101,33 +101,46 @@ Custom themes are automatically included in the rotation.
 
 ## Built-in Characters
 
-| Character | Category | Difficulty |
-|-----------|----------|-----------|
-| Sherlock Holmes | Literature / Film | Easy |
-| Yoda | Film | Easy |
-| Darth Vader | Film | Easy |
-| Gandalf | Film / Literature | Easy |
-| Batman | Comics / Film | Easy |
-| Mario | Video Games | Easy |
-| Homer Simpson | Television | Easy |
-| Shrek | Film | Easy |
-| SpongeBob SquarePants | Television | Easy |
-| Scooby-Doo | Television | Easy |
-| Gollum | Film / Literature | Easy |
-| Jack Sparrow | Film | Medium |
-| The Terminator | Film | Medium |
-| James Bond | Film | Medium |
-| Forrest Gump | Film | Medium |
-| Buzz Lightyear | Film | Medium |
-| Willy Wonka | Film / Literature | Medium |
-| Tony Stark | Film / Comics | Medium |
-| The Grinch | Film / Literature | Medium |
-| Michael Scott | Television | Medium |
-| The Joker | Comics / Film | Medium |
-| Indiana Jones | Film | Medium |
-| Dory | Film | Medium |
-| Kermit the Frog | Television | Medium |
-| Rocky Balboa | Film | Hard |
+| Character | From |
+|-----------|------|
+| Yoda | Star Wars |
+| The Joker | DC Comics / The Dark Knight |
+| Forrest Gump | Forrest Gump |
+| Vito Corleone | The Godfather |
+| Darth Vader | Star Wars |
+| Sherlock Holmes | Arthur Conan Doyle |
+| Ron Burgundy | Anchorman |
+| The Dude | The Big Lebowski |
+| Jack Sparrow | Pirates of the Caribbean |
+| Gandalf | The Lord of the Rings |
+| Hannibal Lecter | The Silence of the Lambs |
+| Tyler Durden | Fight Club |
+| The Terminator | The Terminator |
+| Jules Winnfield | Pulp Fiction |
+| Michael Scott | The Office |
+| Homer Simpson | The Simpsons |
+| Tony Stark | Iron Man / The Avengers |
+| Ferris Bueller | Ferris Bueller's Day Off |
+| James Bond | 007 — Ian Fleming |
+| Bugs Bunny | Looney Tunes |
+| Tyrion Lannister | Game of Thrones |
+| Tony Soprano | The Sopranos |
+| Obi-Wan Kenobi | Star Wars |
+| Dorothy | The Wizard of Oz |
+| Ricky Bobby | Talladega Nights |
+| Ron Swanson | Parks and Recreation |
+| Dwight Schrute | The Office |
+| Walter White | Breaking Bad |
+| Thanos | The Avengers — Marvel |
+| Napoleon Dynamite | Napoleon Dynamite |
+| Shrek | Shrek |
+| SpongeBob SquarePants | SpongeBob SquarePants |
+| Inigo Montoya | The Princess Bride |
+| Hamlet | Shakespeare |
+| Tony Montana | Scarface |
+| Ace Ventura | Ace Ventura: Pet Detective |
+| Borat | Borat |
+| Batman | DC Comics / The Dark Knight |
 
 ## Uninstall
 

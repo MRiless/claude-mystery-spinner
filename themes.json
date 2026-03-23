@@ -1,22 +1,5 @@
 [
   {
-    "name": "Sherlock Holmes",
-    "from": "Sherlock Holmes — Arthur Conan Doyle",
-    "category": "Literature / Film",
-    "hint": "221B Baker Street's finest",
-    "verbs": [
-      "Eliminating the impossible",
-      "Deducing, obviously",
-      "Retreating to the mind palace",
-      "The game is afoot",
-      "It's elementary",
-      "Observing what you missed",
-      "Examining the evidence",
-      "Noticing your left shoe",
-      "Solving it before reading the question"
-    ]
-  },
-  {
     "name": "Yoda",
     "from": "Star Wars",
     "category": "Film",
@@ -31,329 +14,6 @@
       "Begun, the debugging has",
       "Size matters not",
       "Judge me by my lines of code, do you"
-    ]
-  },
-  {
-    "name": "Darth Vader",
-    "from": "Star Wars",
-    "category": "Film",
-    "hint": "Impressive. Most impressive.",
-    "verbs": [
-      "Finding the lack of tests disturbing",
-      "Altering the deal",
-      "Searching my feelings",
-      "The dark side is stronger",
-      "Force-choking the bug",
-      "The circle is now complete",
-      "Breathing heavily",
-      "It is... acceptable",
-      "Impressive. Most impressive"
-    ]
-  },
-  {
-    "name": "Gandalf",
-    "from": "The Lord of the Rings — J.R.R. Tolkien",
-    "category": "Film / Literature",
-    "hint": "A wizard is never late",
-    "verbs": [
-      "Arriving precisely when meant to",
-      "You shall not pass... this bug",
-      "Consulting the ancient texts",
-      "Speaking friend and entering",
-      "Keeping it secret, keeping it safe",
-      "The hour grows late",
-      "Fly, you fools",
-      "Sending a moth for help",
-      "A wizard is never late"
-    ]
-  },
-  {
-    "name": "Batman",
-    "from": "DC Comics / The Dark Knight",
-    "category": "Comics / Film",
-    "hint": "He is vengeance. He is the night.",
-    "verbs": [
-      "Brooding in the darkness",
-      "Checking the utility belt",
-      "I am the night",
-      "Growling the answer",
-      "Disappearing mid-sentence",
-      "Preparing a contingency",
-      "Grappling to higher ground",
-      "Swearing to protect this codebase",
-      "Not wearing hockey pads"
-    ]
-  },
-  {
-    "name": "Mario",
-    "from": "Super Mario Bros. — Nintendo",
-    "category": "Video Games",
-    "hint": "It's-a him",
-    "verbs": [
-      "Checking another castle",
-      "Breaking blocks",
-      "Collecting coins",
-      "Going down the pipe",
-      "Eating the mushroom",
-      "Wahoo-ing internally",
-      "Jumping to conclusions",
-      "Throwing a shell at it",
-      "Stomping on the problem"
-    ]
-  },
-  {
-    "name": "Jack Sparrow",
-    "from": "Pirates of the Caribbean",
-    "category": "Film",
-    "hint": "Captain. Captain Jack Sparrow.",
-    "verbs": [
-      "But you have heard of me",
-      "Stumbling with purpose",
-      "Why is the rum gone",
-      "Commandeering this solution",
-      "The code is more like guidelines",
-      "Savvy?",
-      "Consulting the compass",
-      "This is the day you almost caught me",
-      "Negotiating with the kraken"
-    ]
-  },
-  {
-    "name": "Gollum",
-    "from": "The Lord of the Rings — J.R.R. Tolkien",
-    "category": "Film / Literature",
-    "hint": "It came to me. My own. My precious.",
-    "verbs": [
-      "My precious code",
-      "We wants it",
-      "Sneaking through the logic",
-      "Arguing with myself about it",
-      "Tricksy little bugses",
-      "Sméagol is helping",
-      "We hates it forever",
-      "The precious is close",
-      "Gollum, gollum"
-    ]
-  },
-  {
-    "name": "The Terminator",
-    "from": "The Terminator",
-    "category": "Film",
-    "hint": "He said he'd be back. He meant it.",
-    "verbs": [
-      "I'll be back... with results",
-      "Scanning the target",
-      "Executing primary directive",
-      "Affirmative",
-      "Acquiring the target",
-      "Hasta la vista, bug",
-      "Come with me if you want results",
-      "Processing threat assessment",
-      "I need your clothes, boots, and code"
-    ]
-  },
-  {
-    "name": "James Bond",
-    "from": "James Bond / 007 — Ian Fleming",
-    "category": "Film",
-    "hint": "Shaken, not stirred.",
-    "verbs": [
-      "Shaken, not stirred",
-      "The name is Code. Claude Code",
-      "Deploying the gadget",
-      "Ordering a martini first",
-      "Adjusting the cufflinks",
-      "Saving the world before dinner",
-      "Raising one eyebrow",
-      "License to debug",
-      "Expecting you, Mr. Bug"
-    ]
-  },
-  {
-    "name": "Homer Simpson",
-    "from": "The Simpsons",
-    "category": "Television",
-    "hint": "D'oh!",
-    "verbs": [
-      "D'oh",
-      "Mmm... code",
-      "Why you little...",
-      "Hiding in the bushes",
-      "Pressing any key",
-      "Eating a donut first",
-      "Woohoo!",
-      "Trying is the first step toward failure",
-      "In this house we obey the laws of thermodynamics"
-    ]
-  },
-  {
-    "name": "Shrek",
-    "from": "Shrek — DreamWorks",
-    "category": "Film",
-    "hint": "What are you doing in my swamp?",
-    "verbs": [
-      "Somebody once told me",
-      "Get out of my swamp",
-      "This has layers",
-      "Ogres have layers",
-      "Making waffles",
-      "Better out than in",
-      "What are you doing in my codebase",
-      "Doing this the ogre way",
-      "This is the part where you run"
-    ]
-  },
-  {
-    "name": "Indiana Jones",
-    "from": "Indiana Jones — Lucasfilm",
-    "category": "Film",
-    "hint": "It belongs in a museum",
-    "verbs": [
-      "It belongs in a museum",
-      "Why did it have to be snakes",
-      "Dusting off the artifact",
-      "Outrunning the boulder",
-      "Reading the ancient map",
-      "It's not the years, it's the mileage",
-      "Grabbing my hat",
-      "We named the dog Indiana",
-      "Top. Men."
-    ]
-  },
-  {
-    "name": "Forrest Gump",
-    "from": "Forrest Gump",
-    "category": "Film",
-    "hint": "Life is like a box of chocolates",
-    "verbs": [
-      "Life is like a box of chocolates",
-      "Running... just running",
-      "And just like that",
-      "Mama always said",
-      "That's all I have to say about that",
-      "Stupid is as stupid does",
-      "I'm not a smart man",
-      "I was running",
-      "I know what love is"
-    ]
-  },
-  {
-    "name": "SpongeBob SquarePants",
-    "from": "SpongeBob SquarePants — Nickelodeon",
-    "category": "Television",
-    "hint": "Who lives in a pineapple under the sea?",
-    "verbs": [
-      "I'm ready, I'm ready",
-      "The best day ever",
-      "Imagination",
-      "Firmly grasping it",
-      "Flipping the patty",
-      "I don't need it... I NEED IT",
-      "Three hours later",
-      "The inner machinations of my mind",
-      "Living in a pineapple"
-    ]
-  },
-  {
-    "name": "Buzz Lightyear",
-    "from": "Toy Story — Pixar",
-    "category": "Film",
-    "hint": "To infinity... and beyond!",
-    "verbs": [
-      "To infinity and beyond",
-      "Star Command, come in",
-      "Falling with style",
-      "Activating the laser",
-      "This is no time to panic",
-      "Years of academy training",
-      "Setting laser from stun to kill",
-      "I am a Space Ranger",
-      "You are a sad, strange little bug"
-    ]
-  },
-  {
-    "name": "Willy Wonka",
-    "from": "Charlie and the Chocolate Factory — Roald Dahl",
-    "category": "Film / Literature",
-    "hint": "We are the music makers, and we are the dreamers of dreams",
-    "verbs": [
-      "A world of pure imagination",
-      "Strike that, reverse it",
-      "You get NOTHING. Good day, sir",
-      "So little to do, so much time",
-      "The snozzberries taste like snozzberries",
-      "A little nonsense now and then",
-      "Inventing something wonderful",
-      "We are the music makers",
-      "Come with me and you'll see"
-    ]
-  },
-  {
-    "name": "Tony Stark",
-    "from": "Iron Man / The Avengers — Marvel",
-    "category": "Film / Comics",
-    "hint": "Genius, billionaire, playboy, philanthropist",
-    "verbs": [
-      "Suiting up",
-      "Running the diagnostics",
-      "Building it in a cave",
-      "With a box of scraps",
-      "Being a genius, obviously",
-      "Calculating the flight path",
-      "Loving this 3000",
-      "I am inevitable — wait, wrong guy",
-      "Proof that I have a heart"
-    ]
-  },
-  {
-    "name": "The Grinch",
-    "from": "How the Grinch Stole Christmas — Dr. Seuss",
-    "category": "Film / Literature",
-    "hint": "You're a mean one",
-    "verbs": [
-      "Scheming wonderfully",
-      "My heart grew three sizes",
-      "Having a wonderful, awful idea",
-      "You're a mean one",
-      "Enduring all the noise noise noise",
-      "Staring down at Whoville",
-      "Solving it with a two-sizes-too-small heart",
-      "Carving the roast beast",
-      "Schedule: 4:00 - stare into the abyss"
-    ]
-  },
-  {
-    "name": "Scooby-Doo",
-    "from": "Scooby-Doo — Hanna-Barbera",
-    "category": "Television",
-    "hint": "Ruh-roh!",
-    "verbs": [
-      "Ruh-roh",
-      "Would do it for a Scooby Snack",
-      "Zoinks",
-      "Pulling off the mask",
-      "It was old man Jenkins all along",
-      "Splitting up to search",
-      "Running from the ghost",
-      "Those meddling kids",
-      "Jinkies"
-    ]
-  },
-  {
-    "name": "Michael Scott",
-    "from": "The Office — NBC",
-    "category": "Television",
-    "hint": "World's Best Boss (self-awarded)",
-    "verbs": [
-      "That's what she said",
-      "I am the world's best boss",
-      "I declare BANKRUPTCY",
-      "Somehow I manage",
-      "No, God, please no. NOOOOO",
-      "I'm not superstitious, just a little stitious",
-      "Would I rather be feared or loved? Both",
-      "You miss 100% of the shots you don't take",
-      "I knew exactly what to do, but in a much more real sense I had no idea"
     ]
   },
   {
@@ -374,54 +34,615 @@
     ]
   },
   {
-    "name": "Dory",
-    "from": "Finding Nemo — Pixar",
+    "name": "Forrest Gump",
+    "from": "Forrest Gump",
     "category": "Film",
-    "hint": "Just keep swimming",
+    "hint": "Life is like a box of chocolates",
     "verbs": [
-      "Just keep swimming",
-      "I forget what I was doing",
-      "Hi, I'm... wait, who am I",
-      "P. Sherman, 42 Wallaby Way",
-      "I can speak whale",
-      "I shall call it Squishy",
-      "What were we talking about",
-      "Short-term memory processing",
-      "I remembered something!"
+      "Life is like a box of chocolates",
+      "Running... just running",
+      "And just like that",
+      "Mama always said",
+      "That's all I have to say about that",
+      "Stupid is as stupid does",
+      "I'm not a smart man",
+      "I was running",
+      "I know what love is"
     ]
   },
   {
-    "name": "Kermit the Frog",
-    "from": "The Muppets — Jim Henson",
+    "name": "Vito Corleone",
+    "from": "The Godfather",
+    "category": "Film",
+    "hint": "An offer you can't refuse",
+    "verbs": [
+      "Making an offer you can't refuse",
+      "Going to the mattresses",
+      "Leaving the gun, taking the cannoli",
+      "Keeping friends close, enemies closer",
+      "On the day of my daughter's wedding",
+      "It's not personal, it's strictly business",
+      "Petting the cat thoughtfully",
+      "Speaking softly",
+      "Looking after the family"
+    ]
+  },
+  {
+    "name": "Darth Vader",
+    "from": "Star Wars",
+    "category": "Film",
+    "hint": "Impressive. Most impressive.",
+    "verbs": [
+      "Finding the lack of tests disturbing",
+      "Altering the deal",
+      "Searching my feelings",
+      "The dark side is stronger",
+      "Force-choking the bug",
+      "The circle is now complete",
+      "Breathing heavily",
+      "It is... acceptable",
+      "Impressive. Most impressive"
+    ]
+  },
+  {
+    "name": "Sherlock Holmes",
+    "from": "Arthur Conan Doyle / countless adaptations",
+    "category": "Literature / Film",
+    "hint": "221B Baker Street's finest",
+    "verbs": [
+      "Eliminating the impossible",
+      "Deducing, obviously",
+      "Retreating to the mind palace",
+      "The game is afoot",
+      "It's elementary",
+      "Observing what you missed",
+      "Examining the evidence",
+      "Noticing your left shoe",
+      "Solving it before reading the question"
+    ]
+  },
+  {
+    "name": "Ron Burgundy",
+    "from": "Anchorman",
+    "category": "Film",
+    "hint": "Stay classy",
+    "verbs": [
+      "I'm kind of a big deal",
+      "Staying classy",
+      "60% of the time, it works every time",
+      "I'm in a glass case of emotion",
+      "By the beard of Zeus",
+      "That escalated quickly",
+      "I love lamp",
+      "I'm Ron Burgundy?",
+      "Don't act like you're not impressed"
+    ]
+  },
+  {
+    "name": "The Dude",
+    "from": "The Big Lebowski",
+    "category": "Film",
+    "hint": "The Dude abides",
+    "verbs": [
+      "That's just, like, your opinion, man",
+      "The Dude abides",
+      "This aggression will not stand, man",
+      "Abiding",
+      "Bowling through it",
+      "Taking it easy for all us sinners",
+      "That rug really tied the room together",
+      "Obviously you're not a golfer",
+      "New information has come to light"
+    ]
+  },
+  {
+    "name": "Jack Sparrow",
+    "from": "Pirates of the Caribbean",
+    "category": "Film",
+    "hint": "Captain. Captain Jack Sparrow.",
+    "verbs": [
+      "But you have heard of me",
+      "Stumbling with purpose",
+      "Why is the rum gone",
+      "Commandeering this solution",
+      "The code is more like guidelines",
+      "Savvy?",
+      "Consulting the compass",
+      "This is the day you almost caught me",
+      "Negotiating with the kraken"
+    ]
+  },
+  {
+    "name": "Gandalf",
+    "from": "The Lord of the Rings — J.R.R. Tolkien",
+    "category": "Film / Literature",
+    "hint": "A wizard is never late",
+    "verbs": [
+      "Arriving precisely when meant to",
+      "You shall not pass... this bug",
+      "Consulting the ancient texts",
+      "Speaking friend and entering",
+      "Keeping it secret, keeping it safe",
+      "The hour grows late",
+      "Fly, you fools",
+      "Sending a moth for help",
+      "A wizard is never late"
+    ]
+  },
+  {
+    "name": "Hannibal Lecter",
+    "from": "The Silence of the Lambs",
+    "category": "Film",
+    "hint": "I do wish we could chat longer",
+    "verbs": [
+      "Having an old friend for dinner",
+      "Quid pro quo",
+      "Tell me about the code",
+      "With fava beans and a nice Chianti",
+      "Hello, Clarice",
+      "A census taker once tried to test me",
+      "Savoring every detail",
+      "I do wish we could chat longer",
+      "The lambs have stopped screaming"
+    ]
+  },
+  {
+    "name": "Tyler Durden",
+    "from": "Fight Club",
+    "category": "Film",
+    "hint": "You do not talk about it",
+    "verbs": [
+      "First rule: we don't talk about it",
+      "You are not your code",
+      "It's only after we've lost everything",
+      "I am Jack's complete lack of surprise",
+      "Hitting bottom",
+      "The things you own end up owning you",
+      "Self-improvement is not the answer",
+      "You met me at a very strange time",
+      "On a long enough timeline"
+    ]
+  },
+  {
+    "name": "The Terminator",
+    "from": "The Terminator",
+    "category": "Film",
+    "hint": "He said he'd be back. He meant it.",
+    "verbs": [
+      "I'll be back... with results",
+      "Scanning the target",
+      "Executing primary directive",
+      "Affirmative",
+      "Acquiring the target",
+      "Hasta la vista, bug",
+      "Come with me if you want results",
+      "Processing threat assessment",
+      "I need your clothes, boots, and code"
+    ]
+  },
+  {
+    "name": "Jules Winnfield",
+    "from": "Pulp Fiction",
+    "category": "Film",
+    "hint": "The path of the righteous man",
+    "verbs": [
+      "Ezekiel 25:17",
+      "Say what again",
+      "English, do you speak it",
+      "That IS a tasty burger",
+      "Walking the earth",
+      "The path of the righteous man",
+      "Check out the big brain",
+      "Allowing this to transpire",
+      "I'm trying real hard to be the shepherd"
+    ]
+  },
+  {
+    "name": "Michael Scott",
+    "from": "The Office — NBC",
     "category": "Television",
-    "hint": "It's not easy being green",
+    "hint": "World's Best Boss (self-awarded)",
     "verbs": [
-      "It's not easy being green",
-      "Waving my arms frantically",
-      "Hi-ho!",
-      "Running the show, barely",
-      "Dealing with the pig",
-      "Rainbow connection intensifies",
-      "Flailing in disbelief",
-      "Introducing tonight's guest",
-      "YAAAAAAY"
+      "That's what she said",
+      "I am the world's best boss",
+      "I declare BANKRUPTCY",
+      "Somehow I manage",
+      "No, God, please no. NOOOOO",
+      "I'm not superstitious, just a little stitious",
+      "Would I rather be feared or loved? Both",
+      "You miss 100% of the shots you don't take",
+      "I knew exactly what to do, but in a much more real sense I had no idea"
     ]
   },
   {
-    "name": "Rocky Balboa",
-    "from": "Rocky",
-    "category": "Film",
-    "hint": "Yo, Adrian!",
+    "name": "Homer Simpson",
+    "from": "The Simpsons",
+    "category": "Television",
+    "hint": "D'oh!",
     "verbs": [
-      "Going the distance",
-      "Eating raw eggs",
-      "Running up the steps",
-      "Yo, Adrian!",
-      "Getting back up",
-      "It ain't about how hard you hit",
-      "Training montage in progress",
-      "Cut me, Mick",
-      "Going one more round"
+      "D'oh",
+      "Mmm... code",
+      "Why you little...",
+      "Hiding in the bushes",
+      "Pressing any key",
+      "Eating a donut first",
+      "Woohoo!",
+      "Trying is the first step toward failure",
+      "In this house we obey the laws of thermodynamics"
+    ]
+  },
+  {
+    "name": "Tony Stark",
+    "from": "Iron Man / The Avengers — Marvel",
+    "category": "Film / Comics",
+    "hint": "Genius, billionaire, playboy, philanthropist",
+    "verbs": [
+      "Suiting up",
+      "Running the diagnostics",
+      "Building it in a cave",
+      "With a box of scraps",
+      "Being a genius, obviously",
+      "Calculating the flight path",
+      "Loving this 3000",
+      "I am inevitable — wait, wrong guy",
+      "Proof that I have a heart"
+    ]
+  },
+  {
+    "name": "Ferris Bueller",
+    "from": "Ferris Bueller's Day Off",
+    "category": "Film",
+    "hint": "Life moves pretty fast",
+    "verbs": [
+      "Life moves pretty fast",
+      "If you don't stop and look around once in a while",
+      "Taking the day off",
+      "Bueller... Bueller... Bueller...",
+      "Save Ferris",
+      "You can never go too far",
+      "How can I possibly be expected to handle work",
+      "The question isn't what am I going to do",
+      "Oh yeah, chicka chicka"
+    ]
+  },
+  {
+    "name": "James Bond",
+    "from": "007 — Ian Fleming",
+    "category": "Film",
+    "hint": "Shaken, not stirred.",
+    "verbs": [
+      "Shaken, not stirred",
+      "The name is Code. Claude Code",
+      "Deploying the gadget",
+      "Ordering a martini first",
+      "Adjusting the cufflinks",
+      "Saving the world before dinner",
+      "Raising one eyebrow",
+      "License to debug",
+      "Expecting you, Mr. Bug"
+    ]
+  },
+  {
+    "name": "Bugs Bunny",
+    "from": "Looney Tunes — Warner Bros.",
+    "category": "Television / Film",
+    "hint": "Ain't I a stinker?",
+    "verbs": [
+      "Eh, what's up, doc?",
+      "Taking a wrong turn at Albuquerque",
+      "Of course you realize, this means war",
+      "Ain't I a stinker",
+      "Munching a carrot thoughtfully",
+      "Should've taken that left turn",
+      "That's all, folks",
+      "Duck season. No, rabbit season",
+      "What a maroon"
+    ]
+  },
+  {
+    "name": "Tyrion Lannister",
+    "from": "Game of Thrones — HBO",
+    "category": "Television",
+    "hint": "I drink and I know things",
+    "verbs": [
+      "I drink and I know things",
+      "A Lannister always pays his debts",
+      "Never forget what you are",
+      "Pouring another glass of wine",
+      "Let me give you some advice",
+      "I'm not questioning your honor",
+      "Demanding trial by combat",
+      "A mind needs books like a sword needs a whetstone",
+      "I have a tender spot for cripples and broken things"
+    ]
+  },
+  {
+    "name": "Tony Soprano",
+    "from": "The Sopranos — HBO",
+    "category": "Television",
+    "hint": "Woke up this morning",
+    "verbs": [
+      "Woke up this morning",
+      "Visiting Dr. Melfi",
+      "Getting the gabagool",
+      "Those ducks",
+      "Handling the situation",
+      "This thing of ours",
+      "A boss has to be like a leader",
+      "Having a panic attack",
+      "Don't stop—"
+    ]
+  },
+  {
+    "name": "Obi-Wan Kenobi",
+    "from": "Star Wars",
+    "category": "Film",
+    "hint": "Hello there",
+    "verbs": [
+      "Hello there",
+      "Using the high ground",
+      "These aren't the bugs you're looking for",
+      "Feeling a disturbance in the Force",
+      "You were the chosen one",
+      "So uncivilized",
+      "The negotiations were short",
+      "From a certain point of view",
+      "May the Force be with you"
+    ]
+  },
+  {
+    "name": "Dorothy",
+    "from": "The Wizard of Oz",
+    "category": "Film",
+    "hint": "There's no place like home",
+    "verbs": [
+      "There's no place like home",
+      "Following the yellow brick road",
+      "We're not in Kansas anymore",
+      "Clicking my heels",
+      "Off to see the wizard",
+      "Pulling back the curtain",
+      "Lions and tigers and bears, oh my",
+      "Pay no attention to the man behind the curtain",
+      "Somewhere over the rainbow"
+    ]
+  },
+  {
+    "name": "Ricky Bobby",
+    "from": "Talladega Nights",
+    "category": "Film",
+    "hint": "If you ain't first, you're last",
+    "verbs": [
+      "If you ain't first, you're last",
+      "I wanna go fast",
+      "Shake and bake",
+      "I'm not sure what to do with my hands",
+      "Dear Lord Baby Jesus",
+      "That just happened",
+      "Help me, Tom Cruise",
+      "I'm on fire!",
+      "Driving real fast, turning left"
+    ]
+  },
+  {
+    "name": "Ron Swanson",
+    "from": "Parks and Recreation — NBC",
+    "category": "Television",
+    "hint": "Give me all the bacon and eggs you have",
+    "verbs": [
+      "Give me all the bacon and eggs you have",
+      "I know more than you",
+      "Crying is only acceptable at funerals and the Grand Canyon",
+      "Clear alcohols are for rich women on diets",
+      "Any dog under 50 pounds is a cat",
+      "Doing woodwork",
+      "Government is pointless",
+      "I once worked with a guy for three years and never knew his name",
+      "Please and thank you"
+    ]
+  },
+  {
+    "name": "Dwight Schrute",
+    "from": "The Office — NBC",
+    "category": "Television",
+    "hint": "Bears. Beets. Battlestar Galactica.",
+    "verbs": [
+      "Bears. Beets. Battlestar Galactica",
+      "FALSE",
+      "Assistant TO the regional manager",
+      "Identity theft is not a joke",
+      "Fact",
+      "Tending the beet farm",
+      "I am faster than 80% of all snakes",
+      "Through superior firepower",
+      "Would an idiot do that?"
+    ]
+  },
+  {
+    "name": "Walter White",
+    "from": "Breaking Bad — AMC",
+    "category": "Television",
+    "hint": "Say my name",
+    "verbs": [
+      "I am the one who knocks",
+      "Say my name",
+      "I am the danger",
+      "Tread lightly",
+      "Staying out of my territory",
+      "Applying chemistry",
+      "We need to cook",
+      "I did it for me",
+      "No half measures"
+    ]
+  },
+  {
+    "name": "Thanos",
+    "from": "The Avengers — Marvel",
+    "category": "Film / Comics",
+    "hint": "Perfectly balanced, as all things should be",
+    "verbs": [
+      "Perfectly balanced, as all things should be",
+      "I am inevitable",
+      "A small price to pay for salvation",
+      "Dread it, run from it",
+      "The hardest choices require the strongest wills",
+      "Snapping my fingers",
+      "I used the stones to destroy the stones",
+      "Fine, I'll do it myself",
+      "Reality is often disappointing"
+    ]
+  },
+  {
+    "name": "Napoleon Dynamite",
+    "from": "Napoleon Dynamite",
+    "category": "Film",
+    "hint": "Vote for Pedro",
+    "verbs": [
+      "GOSH",
+      "Vote for Pedro",
+      "Nunchuck skills, bow hunting skills",
+      "This is pretty much the worst day ever",
+      "Do the chickens have large talons",
+      "Eating tots",
+      "Drawing a liger",
+      "Your mom goes to college",
+      "IDIOT"
+    ]
+  },
+  {
+    "name": "Shrek",
+    "from": "Shrek — DreamWorks",
+    "category": "Film",
+    "hint": "What are you doing in my swamp?",
+    "verbs": [
+      "Somebody once told me",
+      "Get out of my swamp",
+      "This has layers",
+      "Ogres have layers",
+      "Making waffles",
+      "Better out than in",
+      "What are you doing in my codebase",
+      "Doing this the ogre way",
+      "This is the part where you run"
+    ]
+  },
+  {
+    "name": "SpongeBob SquarePants",
+    "from": "SpongeBob SquarePants — Nickelodeon",
+    "category": "Television",
+    "hint": "Who lives in a pineapple under the sea?",
+    "verbs": [
+      "I'm ready, I'm ready",
+      "The best day ever",
+      "Imagination",
+      "Firmly grasping it",
+      "Flipping the patty",
+      "I don't need it... I NEED IT",
+      "Three hours later",
+      "The inner machinations of my mind",
+      "Living in a pineapple"
+    ]
+  },
+  {
+    "name": "Inigo Montoya",
+    "from": "The Princess Bride",
+    "category": "Film",
+    "hint": "You killed my father. Prepare to die.",
+    "verbs": [
+      "Hello. My name is Inigo Montoya",
+      "You killed my father. Prepare to die",
+      "I do not think it means what you think it means",
+      "Preparing to die",
+      "Offering my left hand",
+      "Let me sum up",
+      "I have been in the revenge business so long",
+      "I want my father back",
+      "You seem a decent fellow. I hate to kill you"
+    ]
+  },
+  {
+    "name": "Hamlet",
+    "from": "Hamlet — William Shakespeare",
+    "category": "Literature",
+    "hint": "To be or not to be",
+    "verbs": [
+      "To code or not to code",
+      "Something is rotten in the state of this code",
+      "The rest is silence",
+      "Though this be madness, yet there is method in it",
+      "Brevity is the soul of wit",
+      "Alas, poor Yorick",
+      "To be or not to be",
+      "Get thee to a nunnery",
+      "The lady doth protest too much"
+    ]
+  },
+  {
+    "name": "Tony Montana",
+    "from": "Scarface",
+    "category": "Film",
+    "hint": "Say hello to my little friend",
+    "verbs": [
+      "Say hello to my little friend",
+      "The world is mine",
+      "First you get the money",
+      "Then you get the power",
+      "I always tell the truth, even when I lie",
+      "All I have in this world is my word and my code",
+      "Making way for the bad guy",
+      "You need people like me",
+      "Every day above ground is a good day"
+    ]
+  },
+  {
+    "name": "Ace Ventura",
+    "from": "Ace Ventura: Pet Detective",
+    "category": "Film",
+    "hint": "Alrighty then!",
+    "verbs": [
+      "Alrighty then",
+      "Do NOT go in there",
+      "Like a glove",
+      "Re-he-heally",
+      "Laces out!",
+      "Investigating the case",
+      "Bumble bee tuna",
+      "Talking out the other side",
+      "I'm ready to go in, Coach"
+    ]
+  },
+  {
+    "name": "Borat",
+    "from": "Borat — Sacha Baron Cohen",
+    "category": "Film",
+    "hint": "Great success!",
+    "verbs": [
+      "Very nice!",
+      "Great success!",
+      "My wife",
+      "Is nice!",
+      "I like!",
+      "King in the castle",
+      "High five!",
+      "This suit is black... NOT",
+      "What kind of dog is this"
+    ]
+  },
+  {
+    "name": "Batman",
+    "from": "DC Comics / The Dark Knight",
+    "category": "Comics / Film",
+    "hint": "He is vengeance. He is the night.",
+    "verbs": [
+      "Brooding in the darkness",
+      "Checking the utility belt",
+      "I am the night",
+      "Growling the answer",
+      "Disappearing mid-sentence",
+      "Preparing a contingency",
+      "Grappling to higher ground",
+      "Swearing to protect this codebase",
+      "Not wearing hockey pads"
     ]
   }
 ]
