@@ -35,7 +35,7 @@ function reveal() {
 
   const lines = [
     `  Character:  ${answer.name}`,
-    `  Category:   ${answer.category}`,
+    `  From:       ${answer.from}`,
     `  Hint:       ${answer.hint}`,
   ];
   const maxLen = Math.max(...lines.map((l) => l.length), 22);

@@ -1,6 +1,7 @@
 [
   {
     "name": "Sherlock Holmes",
+    "from": "Sherlock Holmes — Arthur Conan Doyle",
     "category": "Literature / Film",
     "hint": "221B Baker Street's finest",
     "verbs": [
@@ -17,6 +18,7 @@
   },
   {
     "name": "Yoda",
+    "from": "Star Wars",
     "category": "Film",
     "hint": "Backwards, he speaks. Wise, he is.",
     "verbs": [
@@ -33,6 +35,7 @@
   },
   {
     "name": "Darth Vader",
+    "from": "Star Wars",
     "category": "Film",
     "hint": "Impressive. Most impressive.",
     "verbs": [
@@ -49,6 +52,7 @@
   },
   {
     "name": "Gandalf",
+    "from": "The Lord of the Rings — J.R.R. Tolkien",
     "category": "Film / Literature",
     "hint": "A wizard is never late",
     "verbs": [
@@ -65,6 +69,7 @@
   },
   {
     "name": "Batman",
+    "from": "DC Comics / The Dark Knight",
     "category": "Comics / Film",
     "hint": "He is vengeance. He is the night.",
     "verbs": [
@@ -81,6 +86,7 @@
   },
   {
     "name": "Mario",
+    "from": "Super Mario Bros. — Nintendo",
     "category": "Video Games",
     "hint": "It's-a him",
     "verbs": [
@@ -97,6 +103,7 @@
   },
   {
     "name": "Jack Sparrow",
+    "from": "Pirates of the Caribbean",
     "category": "Film",
     "hint": "Captain. Captain Jack Sparrow.",
     "verbs": [
@@ -113,6 +120,7 @@
   },
   {
     "name": "Gollum",
+    "from": "The Lord of the Rings — J.R.R. Tolkien",
     "category": "Film / Literature",
     "hint": "It came to me. My own. My precious.",
     "verbs": [
@@ -129,6 +137,7 @@
   },
   {
     "name": "The Terminator",
+    "from": "The Terminator",
     "category": "Film",
     "hint": "He said he'd be back. He meant it.",
     "verbs": [
@@ -145,6 +154,7 @@
   },
   {
     "name": "James Bond",
+    "from": "James Bond / 007 — Ian Fleming",
     "category": "Film",
     "hint": "Shaken, not stirred.",
     "verbs": [
@@ -161,6 +171,7 @@
   },
   {
     "name": "Homer Simpson",
+    "from": "The Simpsons",
     "category": "Television",
     "hint": "D'oh!",
     "verbs": [
@@ -177,6 +188,7 @@
   },
   {
     "name": "Shrek",
+    "from": "Shrek — DreamWorks",
     "category": "Film",
     "hint": "What are you doing in my swamp?",
     "verbs": [
@@ -193,6 +205,7 @@
   },
   {
     "name": "Indiana Jones",
+    "from": "Indiana Jones — Lucasfilm",
     "category": "Film",
     "hint": "It belongs in a museum",
     "verbs": [
@@ -209,6 +222,7 @@
   },
   {
     "name": "Forrest Gump",
+    "from": "Forrest Gump",
     "category": "Film",
     "hint": "Life is like a box of chocolates",
     "verbs": [
@@ -225,6 +239,7 @@
   },
   {
     "name": "SpongeBob SquarePants",
+    "from": "SpongeBob SquarePants — Nickelodeon",
     "category": "Television",
     "hint": "Who lives in a pineapple under the sea?",
     "verbs": [
@@ -241,6 +256,7 @@
   },
   {
     "name": "Buzz Lightyear",
+    "from": "Toy Story — Pixar",
     "category": "Film",
     "hint": "To infinity... and beyond!",
     "verbs": [
@@ -257,6 +273,7 @@
   },
   {
     "name": "Willy Wonka",
+    "from": "Charlie and the Chocolate Factory — Roald Dahl",
     "category": "Film / Literature",
     "hint": "We are the music makers, and we are the dreamers of dreams",
     "verbs": [
@@ -273,6 +290,7 @@
   },
   {
     "name": "Tony Stark",
+    "from": "Iron Man / The Avengers — Marvel",
     "category": "Film / Comics",
     "hint": "Genius, billionaire, playboy, philanthropist",
     "verbs": [
@@ -289,6 +307,7 @@
   },
   {
     "name": "The Grinch",
+    "from": "How the Grinch Stole Christmas — Dr. Seuss",
     "category": "Film / Literature",
     "hint": "You're a mean one",
     "verbs": [
@@ -305,6 +324,7 @@
   },
   {
     "name": "Scooby-Doo",
+    "from": "Scooby-Doo — Hanna-Barbera",
     "category": "Television",
     "hint": "Ruh-roh!",
     "verbs": [
@@ -321,6 +341,7 @@
   },
   {
     "name": "Michael Scott",
+    "from": "The Office — NBC",
     "category": "Television",
     "hint": "World's Best Boss (self-awarded)",
     "verbs": [
@@ -337,6 +358,7 @@
   },
   {
     "name": "The Joker",
+    "from": "DC Comics / The Dark Knight",
     "category": "Comics / Film",
     "hint": "Why so serious?",
     "verbs": [
@@ -353,6 +375,7 @@
   },
   {
     "name": "Dory",
+    "from": "Finding Nemo — Pixar",
     "category": "Film",
     "hint": "Just keep swimming",
     "verbs": [
@@ -369,6 +392,7 @@
   },
   {
     "name": "Kermit the Frog",
+    "from": "The Muppets — Jim Henson",
     "category": "Television",
     "hint": "It's not easy being green",
     "verbs": [
@@ -385,6 +409,7 @@
   },
   {
     "name": "Rocky Balboa",
+    "from": "Rocky",
     "category": "Film",
     "hint": "Yo, Adrian!",
     "verbs": [

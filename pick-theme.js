@@ -77,6 +77,7 @@ function run() {
   // Save the answer for reveal (include projectDir so the skill can find mark-seen.js)
   const answer = {
     name: theme.name,
+    from: theme.from,
     category: theme.category,
     hint: theme.hint,
     projectDir: __dirname.replace(/\\/g, "/"),

@@ -14,7 +14,7 @@ If it exists, display the reveal like this:
 Mystery Spinner Reveal
 ━━━━━━━━━━━━━━━━━━━━━
 Character:  {name}
-Category:   {category}
+From:       {from}
 Hint:       {hint}
 ```
 
