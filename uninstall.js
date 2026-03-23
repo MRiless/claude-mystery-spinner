@@ -13,6 +13,11 @@ const ANSWER_PATH = path.join(
   ".claude",
   ".mystery-spinner-answer.json"
 );
+const SEEN_PATH = path.join(
+  process.env.HOME || process.env.USERPROFILE,
+  ".claude",
+  ".mystery-spinner-seen.json"
+);
 const SKILL_PATH = path.join(
   process.env.HOME || process.env.USERPROFILE,
   ".claude",
@@ -49,6 +54,11 @@ function uninstall() {
   // Clean up answer file
   if (fs.existsSync(ANSWER_PATH)) {
     fs.unlinkSync(ANSWER_PATH);
+  }
+
+  // Clean up seen tracking file
+  if (fs.existsSync(SEEN_PATH)) {
+    fs.unlinkSync(SEEN_PATH);
   }
 
   // Remove skill

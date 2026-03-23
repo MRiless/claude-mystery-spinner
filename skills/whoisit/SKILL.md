@@ -20,4 +20,10 @@ Hint:       {hint}
 
 Then add a one-liner reaction to the character, something dry and funny. Keep it to one sentence.
 
-Do NOT change the subject, ask follow-up questions, or interrupt whatever the user was working on. Just reveal and move on.
+After displaying the reveal, mark the character as seen by running this command with the Bash tool (use the `projectDir` value from the answer JSON):
+
+```
+node "{projectDir}/mark-seen.js"
+```
+
+Do NOT change the subject, ask follow-up questions, or interrupt whatever the user was working on. Just reveal, mark seen, and move on.

@@ -1,10 +1,28 @@
-# Mystery Spinner
+# Mystery Spinner for [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
 
-Each time you start a Claude Code session, the thinking spinner gets taken over by a mystery character. Watch the verbs. Guess who it is. Then reveal the answer.
+> A fun add-in for Claude Code that turns the thinking spinner into a guessing game.
+
+Each time you start a Claude Code session, the spinner verbs get taken over by a mystery character. Watch the clues. Guess who it is. Then reveal the answer.
 
 25 built-in characters spanning film, TV, literature, video games, animals, and unhinged archetypes — from Sherlock Holmes deducing your code to a Golden Retriever fetching your results.
 
-## Install
+You'll never see the same character twice until you've revealed them all.
+
+## Quick Install
+
+**One-liner (clone + install):**
+
+```bash
+git clone https://github.com/MRiless/claude-mystery-spinner.git ~/.claude-mystery-spinner && node ~/.claude-mystery-spinner/install.js
+```
+
+**Or from inside Claude Code — paste this into the prompt:**
+
+```
+! git clone https://github.com/MRiless/claude-mystery-spinner.git ~/.claude-mystery-spinner && node ~/.claude-mystery-spinner/install.js
+```
+
+**Or step by step:**
 
 ```bash
 git clone https://github.com/MRiless/claude-mystery-spinner.git
@@ -24,13 +42,20 @@ When you think you know who it is — or give up — type inside Claude Code:
 /whoisit
 ```
 
-That's it. It reveals the character and gets out of your way.
+This reveals the character, marks it as seen, and gets out of your way.
 
-You can also reveal from the terminal if you prefer:
+You can also reveal from the terminal:
 
 ```bash
-node /path/to/claude-mystery-spinner/reveal.js
+node ~/.claude-mystery-spinner/reveal.js
 ```
+
+## How the Tracking Works
+
+- Each time you **reveal** a character (via `/whoisit` or `reveal.js`), it's marked as seen
+- Future sessions only pick from characters you **haven't** revealed yet
+- Once you've revealed all 25, the cycle resets and they all come back
+- If you never reveal a character, it stays in the pool — no penalty for skipping
 
 ## Example
 
@@ -74,21 +99,6 @@ Custom themes are automatically included in the rotation.
 - **Keep them short** — they show in a spinner, not a novel
 - **Present participle form** — "Consulting the map" not "Consults the map"
 
-## Uninstall
-
-```bash
-node /path/to/claude-mystery-spinner/uninstall.js
-```
-
-Removes the hook and restores default spinner verbs.
-
-## How It Works
-
-1. `install.js` adds a `SessionStart` hook and a `/whoisit` skill to `~/.claude/`
-2. Each session, `pick-theme.js` picks a random character and writes its verbs to `spinnerVerbs` in settings
-3. The answer is saved to `~/.claude/.mystery-spinner-answer.json`
-4. `/whoisit` (or `reveal.js`) reads that file and shows you who it was
-
 ## Built-in Characters
 
 | Character | Category | Difficulty |
@@ -118,6 +128,27 @@ Removes the hook and restores default spinner verbs.
 | Christopher Walken | Film | Medium |
 | An Overly Honest GPS | Object | Medium |
 | Yoda | Film | Easy |
+
+## Uninstall
+
+```bash
+node ~/.claude-mystery-spinner/uninstall.js
+```
+
+Removes the hook, spinner verbs, tracking data, and restores defaults.
+
+## How It Works
+
+1. `install.js` adds a `SessionStart` hook and a `/whoisit` skill to `~/.claude/`
+2. Each session, `pick-theme.js` picks a random unseen character and writes its verbs to `spinnerVerbs` in settings
+3. The answer is saved to `~/.claude/.mystery-spinner-answer.json`
+4. `/whoisit` (or `reveal.js`) shows the character and marks it as seen in `~/.claude/.mystery-spinner-seen.json`
+5. Once all characters are revealed, the seen list resets
+
+## Requirements
+
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) (the Anthropic CLI for Claude)
+- Node.js 18+
 
 ## Contributing
 

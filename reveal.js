@@ -8,6 +8,22 @@ const ANSWER_PATH = path.join(
   ".claude",
   ".mystery-spinner-answer.json"
 );
+const SEEN_PATH = path.join(
+  process.env.HOME || process.env.USERPROFILE,
+  ".claude",
+  ".mystery-spinner-seen.json"
+);
+
+function markSeen(name) {
+  let seen = [];
+  if (fs.existsSync(SEEN_PATH)) {
+    seen = JSON.parse(fs.readFileSync(SEEN_PATH, "utf8"));
+  }
+  if (!seen.includes(name)) {
+    seen.push(name);
+    fs.writeFileSync(SEEN_PATH, JSON.stringify(seen, null, 2) + "\n");
+  }
+}
 
 function reveal() {
   if (!fs.existsSync(ANSWER_PATH)) {
@@ -37,6 +53,9 @@ function reveal() {
   lines.forEach((l) => console.log(row(l)));
   console.log(`  ╚${border}╝`);
   console.log();
+
+  // Mark this character as seen
+  markSeen(answer.name);
 }
 
 reveal();
