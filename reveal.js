@@ -3,16 +3,12 @@
 const fs = require("fs");
 const path = require("path");
 
-const ANSWER_PATH = path.join(
+const SPINNER_DIR = path.join(
   process.env.HOME || process.env.USERPROFILE,
-  ".claude",
-  ".mystery-spinner-answer.json"
+  ".mystery-spinner"
 );
-const SEEN_PATH = path.join(
-  process.env.HOME || process.env.USERPROFILE,
-  ".claude",
-  ".mystery-spinner-seen.json"
-);
+const ANSWER_PATH = path.join(SPINNER_DIR, "answer.json");
+const SEEN_PATH = path.join(SPINNER_DIR, "seen.json");
 
 function markSeen(name) {
   let seen = [];
@@ -33,10 +29,13 @@ function reveal() {
 
   const answer = JSON.parse(fs.readFileSync(ANSWER_PATH, "utf8"));
 
+  const tagLabel = answer.tag ? ` (${answer.tag})` : "";
   const lines = [
-    `  Character:  ${answer.name}`,
+    `  Character:  ${answer.name}${tagLabel}`,
     `  From:       ${answer.from}`,
     `  Hint:       ${answer.hint}`,
+    ``,
+    `  ${answer.oneLiner || ""}`,
   ];
   const maxLen = Math.max(...lines.map((l) => l.length), 22);
   const row = (s) => `  ║ ${s.padEnd(maxLen)} ║`;
@@ -54,8 +53,10 @@ function reveal() {
   console.log(`  ╚${border}╝`);
   console.log();
 
-  // Mark this character as seen
+  // Mark this character as seen and pick the next one
   markSeen(answer.name);
+  const { pickTheme } = require("./pick-theme");
+  pickTheme();
 }
 
 reveal();

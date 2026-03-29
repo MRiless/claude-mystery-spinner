@@ -3,16 +3,12 @@
 const fs = require("fs");
 const path = require("path");
 
-const ANSWER_PATH = path.join(
+const SPINNER_DIR = path.join(
   process.env.HOME || process.env.USERPROFILE,
-  ".claude",
-  ".mystery-spinner-answer.json"
+  ".mystery-spinner"
 );
-const SEEN_PATH = path.join(
-  process.env.HOME || process.env.USERPROFILE,
-  ".claude",
-  ".mystery-spinner-seen.json"
-);
+const ANSWER_PATH = path.join(SPINNER_DIR, "answer.json");
+const SEEN_PATH = path.join(SPINNER_DIR, "seen.json");
 
 function markSeen() {
   if (!fs.existsSync(ANSWER_PATH)) {
@@ -29,6 +25,10 @@ function markSeen() {
     seen.push(answer.name);
     fs.writeFileSync(SEEN_PATH, JSON.stringify(seen, null, 2) + "\n");
   }
+
+  // Pick the next character so verbs are ready before the next session starts
+  const { pickTheme } = require("./pick-theme");
+  pickTheme();
 }
 
 markSeen();

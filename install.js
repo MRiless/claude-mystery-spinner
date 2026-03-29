@@ -9,7 +9,6 @@ const SETTINGS_PATH = path.join(
   "settings.json"
 );
 
-const PICK_SCRIPT = path.join(__dirname, "pick-theme.js").replace(/\\/g, "/");
 const SKILL_SRC = path.join(__dirname, "skills", "whoisit");
 const SKILL_DEST = path.join(
   process.env.HOME || process.env.USERPROFILE,
@@ -17,8 +16,6 @@ const SKILL_DEST = path.join(
   "skills",
   "whoisit"
 );
-
-const HOOK_COMMAND = `node "${PICK_SCRIPT}"`;
 
 function installSkill() {
   const destDir = path.dirname(SKILL_DEST);
@@ -48,47 +45,48 @@ function installSkill() {
   }
 }
 
+function removeOldHook() {
+  if (!fs.existsSync(SETTINGS_PATH)) return;
+
+  const settings = JSON.parse(fs.readFileSync(SETTINGS_PATH, "utf8"));
+
+  if (settings.hooks?.SessionStart) {
+    const before = settings.hooks.SessionStart.length;
+    settings.hooks.SessionStart = settings.hooks.SessionStart.filter(
+      (entry) => !entry.hooks?.some((h) => h.command?.includes("pick-theme.js"))
+    );
+    if (settings.hooks.SessionStart.length === 0) {
+      delete settings.hooks.SessionStart;
+    }
+    if (Object.keys(settings.hooks).length === 0) {
+      delete settings.hooks;
+    }
+    if (settings.hooks?.SessionStart?.length !== before) {
+      fs.writeFileSync(
+        SETTINGS_PATH,
+        JSON.stringify(settings, null, 2) + "\n"
+      );
+      console.log("  Removed old SessionStart hook.");
+    }
+  }
+}
+
 function install() {
-  let settings = {};
-  if (fs.existsSync(SETTINGS_PATH)) {
-    settings = JSON.parse(fs.readFileSync(SETTINGS_PATH, "utf8"));
-  }
+  // Remove the old SessionStart hook if present (no longer needed)
+  removeOldHook();
 
-  if (!settings.hooks) {
-    settings.hooks = {};
-  }
-  if (!settings.hooks.SessionStart) {
-    settings.hooks.SessionStart = [];
-  }
+  // Pick the first character
+  const { pickTheme } = require("./pick-theme");
+  pickTheme();
+  console.log("  First character picked.");
 
-  // Check if hook already installed
-  const hookInstalled = settings.hooks.SessionStart.some((entry) =>
-    entry.hooks?.some((h) => h.command?.includes("pick-theme.js"))
-  );
-
-  if (hookInstalled) {
-    console.log("Mystery Spinner hook already installed.");
-  } else {
-    settings.hooks.SessionStart.push({
-      matcher: "",
-      hooks: [
-        {
-          type: "command",
-          command: HOOK_COMMAND,
-          timeout: 5,
-        },
-      ],
-    });
-    fs.writeFileSync(SETTINGS_PATH, JSON.stringify(settings, null, 2) + "\n");
-    console.log("  SessionStart hook installed.");
-  }
-
+  // Install the skill
   installSkill();
 
   console.log();
   console.log("Mystery Spinner is ready.");
-  console.log("  A new character is picked each time you start Claude Code.");
-  console.log("  Type /whoisit inside Claude Code to reveal who it is.");
+  console.log("  Guess the character from the spinner verbs, then type /whoisit to reveal.");
+  console.log("  A new character is picked each time you reveal one.");
 }
 
 install();

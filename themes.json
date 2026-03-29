@@ -4,6 +4,7 @@
     "from": "Star Wars",
     "category": "Film",
     "hint": "Backwards, he speaks. Wise, he is.",
+    "oneLiner": "900 years old and still debugging, he is.",
     "verbs": [
       "Think, I must",
       "Strong with this one, the code is",
@@ -21,6 +22,7 @@
     "from": "DC Comics / The Dark Knight",
     "category": "Comics / Film",
     "hint": "Why so serious?",
+    "oneLiner": "Some men just want to watch the build fail.",
     "verbs": [
       "Why so serious",
       "Introducing a little chaos",
@@ -38,6 +40,7 @@
     "from": "Forrest Gump",
     "category": "Film",
     "hint": "Life is like a box of chocolates",
+    "oneLiner": "He may not be a smart man, but he knows what good code is.",
     "verbs": [
       "Life is like a box of chocolates",
       "Running... just running",
@@ -55,6 +58,7 @@
     "from": "The Godfather",
     "category": "Film",
     "hint": "An offer you can't refuse",
+    "oneLiner": "He made your spinner an offer it couldn't refuse.",
     "verbs": [
       "Making an offer you can't refuse",
       "Going to the mattresses",
@@ -72,6 +76,7 @@
     "from": "Star Wars",
     "category": "Film",
     "hint": "Impressive. Most impressive.",
+    "oneLiner": "He found your lack of tests disturbing.",
     "verbs": [
       "Finding the lack of tests disturbing",
       "Altering the deal",
@@ -89,6 +94,7 @@
     "from": "Arthur Conan Doyle / countless adaptations",
     "category": "Literature / Film",
     "hint": "221B Baker Street's finest",
+    "oneLiner": "He deduced your spinner's identity before you even asked.",
     "verbs": [
       "Eliminating the impossible",
       "Deducing, obviously",
@@ -106,6 +112,7 @@
     "from": "Anchorman",
     "category": "Film",
     "hint": "Stay classy",
+    "oneLiner": "He's kind of a big deal in the spinner community.",
     "verbs": [
       "I'm kind of a big deal",
       "Staying classy",
@@ -123,6 +130,7 @@
     "from": "The Big Lebowski",
     "category": "Film",
     "hint": "The Dude abides",
+    "oneLiner": "The spinner abides, man.",
     "verbs": [
       "That's just, like, your opinion, man",
       "The Dude abides",
@@ -140,6 +148,7 @@
     "from": "Pirates of the Caribbean",
     "category": "Film",
     "hint": "Captain. Captain Jack Sparrow.",
+    "oneLiner": "You may have noticed the spinner was a bit... unsteady.",
     "verbs": [
       "But you have heard of me",
       "Stumbling with purpose",
@@ -157,6 +166,7 @@
     "from": "The Lord of the Rings — J.R.R. Tolkien",
     "category": "Film / Literature",
     "hint": "A wizard is never late",
+    "oneLiner": "A spinner is never late, nor is it early.",
     "verbs": [
       "Arriving precisely when meant to",
       "You shall not pass... this bug",
@@ -174,6 +184,7 @@
     "from": "The Silence of the Lambs",
     "category": "Film",
     "hint": "I do wish we could chat longer",
+    "oneLiner": "He paired your spinner with a nice Chianti.",
     "verbs": [
       "Having an old friend for dinner",
       "Quid pro quo",
@@ -191,6 +202,7 @@
     "from": "Fight Club",
     "category": "Film",
     "hint": "You do not talk about it",
+    "oneLiner": "The first rule of this spinner is you don't talk about this spinner.",
     "verbs": [
       "First rule: we don't talk about it",
       "You are not your code",
@@ -208,6 +220,7 @@
     "from": "The Terminator",
     "category": "Film",
     "hint": "He said he'd be back. He meant it.",
+    "oneLiner": "He'll be back. Next session.",
     "verbs": [
       "I'll be back... with results",
       "Scanning the target",
@@ -225,6 +238,7 @@
     "from": "Pulp Fiction",
     "category": "Film",
     "hint": "The path of the righteous man",
+    "oneLiner": "He just quoted Ezekiel at your progress bar.",
     "verbs": [
       "Ezekiel 25:17",
       "Say what again",
@@ -242,6 +256,7 @@
     "from": "The Office — NBC",
     "category": "Television",
     "hint": "World's Best Boss (self-awarded)",
+    "oneLiner": "He declared himself World's Best Spinner.",
     "verbs": [
       "That's what she said",
       "I am the world's best boss",
@@ -259,6 +274,7 @@
     "from": "The Simpsons",
     "category": "Television",
     "hint": "D'oh!",
+    "oneLiner": "Mmm... spinner.",
     "verbs": [
       "D'oh",
       "Mmm... code",
@@ -276,6 +292,7 @@
     "from": "Iron Man / The Avengers — Marvel",
     "category": "Film / Comics",
     "hint": "Genius, billionaire, playboy, philanthropist",
+    "oneLiner": "He built this spinner in a cave. With a box of scraps.",
     "verbs": [
       "Suiting up",
       "Running the diagnostics",
@@ -293,6 +310,7 @@
     "from": "Ferris Bueller's Day Off",
     "category": "Film",
     "hint": "Life moves pretty fast",
+    "oneLiner": "He took the day off from being a normal spinner.",
     "verbs": [
       "Life moves pretty fast",
       "If you don't stop and look around once in a while",
@@ -310,6 +328,7 @@
     "from": "007 — Ian Fleming",
     "category": "Film",
     "hint": "Shaken, not stirred.",
+    "oneLiner": "The name is Spinner. Mystery Spinner.",
     "verbs": [
       "Shaken, not stirred",
       "The name is Code. Claude Code",
@@ -327,6 +346,7 @@
     "from": "Looney Tunes — Warner Bros.",
     "category": "Television / Film",
     "hint": "Ain't I a stinker?",
+    "oneLiner": "He took a wrong turn at your progress bar.",
     "verbs": [
       "Eh, what's up, doc?",
       "Taking a wrong turn at Albuquerque",
@@ -344,6 +364,7 @@
     "from": "Game of Thrones — HBO",
     "category": "Television",
     "hint": "I drink and I know things",
+    "oneLiner": "He drank and he spun things.",
     "verbs": [
       "I drink and I know things",
       "A Lannister always pays his debts",
@@ -361,6 +382,7 @@
     "from": "The Sopranos — HBO",
     "category": "Television",
     "hint": "Woke up this morning",
+    "oneLiner": "He had a panic attack about your loading times.",
     "verbs": [
       "Woke up this morning",
       "Visiting Dr. Melfi",
@@ -378,6 +400,7 @@
     "from": "Star Wars",
     "category": "Film",
     "hint": "Hello there",
+    "oneLiner": "Hello there. General Spinner.",
     "verbs": [
       "Hello there",
       "Using the high ground",
@@ -395,6 +418,7 @@
     "from": "The Wizard of Oz",
     "category": "Film",
     "hint": "There's no place like home",
+    "oneLiner": "Clicking her heels won't make your code compile faster.",
     "verbs": [
       "There's no place like home",
       "Following the yellow brick road",
@@ -412,6 +436,7 @@
     "from": "Talladega Nights",
     "category": "Film",
     "hint": "If you ain't first, you're last",
+    "oneLiner": "If your spinner ain't first, it's last.",
     "verbs": [
       "If you ain't first, you're last",
       "I wanna go fast",
@@ -429,6 +454,7 @@
     "from": "Parks and Recreation — NBC",
     "category": "Television",
     "hint": "Give me all the bacon and eggs you have",
+    "oneLiner": "He knows more than your spinner. That's all.",
     "verbs": [
       "Give me all the bacon and eggs you have",
       "I know more than you",
@@ -446,6 +472,7 @@
     "from": "The Office — NBC",
     "category": "Television",
     "hint": "Bears. Beets. Battlestar Galactica.",
+    "oneLiner": "Assistant TO the mystery spinner.",
     "verbs": [
       "Bears. Beets. Battlestar Galactica",
       "FALSE",
@@ -463,6 +490,7 @@
     "from": "Breaking Bad — AMC",
     "category": "Television",
     "hint": "Say my name",
+    "oneLiner": "He is the one who spins.",
     "verbs": [
       "I am the one who knocks",
       "Say my name",
@@ -480,6 +508,7 @@
     "from": "The Avengers — Marvel",
     "category": "Film / Comics",
     "hint": "Perfectly balanced, as all things should be",
+    "oneLiner": "Perfectly balanced spinner, as all things should be.",
     "verbs": [
       "Perfectly balanced, as all things should be",
       "I am inevitable",
@@ -497,6 +526,7 @@
     "from": "Napoleon Dynamite",
     "category": "Film",
     "hint": "Vote for Pedro",
+    "oneLiner": "This spinner has great nunchuck skills.",
     "verbs": [
       "GOSH",
       "Vote for Pedro",
@@ -514,6 +544,7 @@
     "from": "Shrek — DreamWorks",
     "category": "Film",
     "hint": "What are you doing in my swamp?",
+    "oneLiner": "What was he doing in your progress bar?",
     "verbs": [
       "Somebody once told me",
       "Get out of my swamp",
@@ -531,6 +562,7 @@
     "from": "SpongeBob SquarePants — Nickelodeon",
     "category": "Television",
     "hint": "Who lives in a pineapple under the sea?",
+    "oneLiner": "He's ready. He's been ready. He was always ready.",
     "verbs": [
       "I'm ready, I'm ready",
       "The best day ever",
@@ -548,6 +580,7 @@
     "from": "The Princess Bride",
     "category": "Film",
     "hint": "You killed my father. Prepare to die.",
+    "oneLiner": "You killed his progress bar. Prepare to wait.",
     "verbs": [
       "Hello. My name is Inigo Montoya",
       "You killed my father. Prepare to die",
@@ -565,6 +598,7 @@
     "from": "Hamlet — William Shakespeare",
     "category": "Literature",
     "hint": "To be or not to be",
+    "oneLiner": "To spin or not to spin -- there was never really a question.",
     "verbs": [
       "To code or not to code",
       "Something is rotten in the state of this code",
@@ -582,6 +616,7 @@
     "from": "Scarface",
     "category": "Film",
     "hint": "Say hello to my little friend",
+    "oneLiner": "Say hello to his little spinner.",
     "verbs": [
       "Say hello to my little friend",
       "The world is mine",
@@ -599,6 +634,7 @@
     "from": "Ace Ventura: Pet Detective",
     "category": "Film",
     "hint": "Alrighty then!",
+    "oneLiner": "Alrighty then. Case closed.",
     "verbs": [
       "Alrighty then",
       "Do NOT go in there",
@@ -616,6 +652,7 @@
     "from": "Borat — Sacha Baron Cohen",
     "category": "Film",
     "hint": "Great success!",
+    "oneLiner": "Very nice! Great success with the spinning!",
     "verbs": [
       "Very nice!",
       "Great success!",
@@ -633,6 +670,7 @@
     "from": "DC Comics / The Dark Knight",
     "category": "Comics / Film",
     "hint": "He is vengeance. He is the night.",
+    "oneLiner": "He disappeared mid-spin. Classic.",
     "verbs": [
       "Brooding in the darkness",
       "Checking the utility belt",

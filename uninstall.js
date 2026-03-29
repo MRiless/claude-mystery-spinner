@@ -8,16 +8,12 @@ const SETTINGS_PATH = path.join(
   ".claude",
   "settings.json"
 );
-const ANSWER_PATH = path.join(
+const SPINNER_DIR = path.join(
   process.env.HOME || process.env.USERPROFILE,
-  ".claude",
-  ".mystery-spinner-answer.json"
+  ".mystery-spinner"
 );
-const SEEN_PATH = path.join(
-  process.env.HOME || process.env.USERPROFILE,
-  ".claude",
-  ".mystery-spinner-seen.json"
-);
+const ANSWER_PATH = path.join(SPINNER_DIR, "answer.json");
+const SEEN_PATH = path.join(SPINNER_DIR, "seen.json");
 const SKILL_PATH = path.join(
   process.env.HOME || process.env.USERPROFILE,
   ".claude",
@@ -51,14 +47,9 @@ function uninstall() {
 
   fs.writeFileSync(SETTINGS_PATH, JSON.stringify(settings, null, 2) + "\n");
 
-  // Clean up answer file
-  if (fs.existsSync(ANSWER_PATH)) {
-    fs.unlinkSync(ANSWER_PATH);
-  }
-
-  // Clean up seen tracking file
-  if (fs.existsSync(SEEN_PATH)) {
-    fs.unlinkSync(SEEN_PATH);
+  // Clean up spinner data directory
+  if (fs.existsSync(SPINNER_DIR)) {
+    fs.rmSync(SPINNER_DIR, { recursive: true });
   }
 
   // Remove skill
