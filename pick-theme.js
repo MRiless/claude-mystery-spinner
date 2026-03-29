@@ -2,6 +2,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { execFileSync } = require("child_process");
 
 const SETTINGS_PATH = path.join(
   process.env.HOME || process.env.USERPROFILE,
@@ -59,7 +60,16 @@ function pickTag() {
   return pickRandom(available);
 }
 
+function autoUpdate() {
+  try {
+    execFileSync("git", ["pull", "--ff-only"], { cwd: __dirname, stdio: "ignore", timeout: 5000 });
+  } catch {
+    // Offline, no remote, merge conflict — silently continue
+  }
+}
+
 function pickTheme() {
+  autoUpdate();
   const themes = loadThemes();
   let seen = loadSeen();
 
